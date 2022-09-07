@@ -14,6 +14,7 @@ $(function(){
           });
     })
 })
+//
 function getUserInfo(){
    axios({
     url:'/my/userinfo',
@@ -25,6 +26,7 @@ function getUserInfo(){
     }
     //渲染
     rendyerAvater(res.data.data)
+  
    })
 }
 
